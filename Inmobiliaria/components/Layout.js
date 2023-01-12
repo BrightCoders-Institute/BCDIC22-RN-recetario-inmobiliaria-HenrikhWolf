@@ -9,6 +9,7 @@ export const Layout = ({ children }) => {
 const styles = StyleSheet.create({
   mainView: {
     marginTop: Constants.statusBarHeight,
-    backgroundColor: "#e5e5e5",
+    backgroundColor: "#2c2c2c",
+    height: '100%',
   },
 });
