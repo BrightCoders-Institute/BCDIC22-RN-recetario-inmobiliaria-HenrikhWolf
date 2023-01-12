@@ -15,69 +15,70 @@
 # App Inmobiliaria
 
   Atributo |  Valor
-  --- | --- |
-  Tipo | Individual
-  Estrategia | Code Lab
-  Modo | Asíncrono
-  Dedicación | 10 horas
-  Duración | 10 días
+ --- | --- |
+ Tipo | Individual
+ Estrategia | Code Lab
+ Modo | Asíncrono
+ Dedicación | 10 horas
+ Duración | 10 días
 
 ## Objetivos
 
-  - Fortalecer los fundamentos en la programación con React Native
-  - Introducir el modelo de React Native de programación por componentes
-  - Introducir el desarrollo de interfaces para aplicaciones móviles con react native
+- Fortalecer los fundamentos en la programación con React Native
+- Introducir el modelo de React Native de programación por componentes
+- Introducir el desarrollo de interfaces para aplicaciones móviles con react native
 
 ## Instrucciones
 
-  - De manera individual deberás desarrollar una aplicación móvil que permita mostrar información de diferentes propiedades inmobiliarias (detalles en la sección de [requerimientos funcionales](#requerimientos-funcionales)).
-  - En la actividad de Github (commits) se deberá observar la actividad diaria de trabajo (avances)
-  - Poner en práctica el concepto de commits significativos.
+- De manera individual deberás desarrollar una aplicación móvil que permita mostrar información de diferentes propiedades inmobiliarias (detalles en la sección de [requerimientos funcionales](#requerimientos-funcionales)).
+- En la actividad de Github (commits) se deberá observar la actividad diaria de trabajo (avances)
+- Poner en práctica el concepto de commits significativos.
 
 ## Entregables
 
-  - Código fuente en este repositorio
-  - Archivo README.md actualizado
-  - El código debe incluir pruebas unitarias
-  - La puntuación obtenida por Codacy, CodeClimate o similar debe ser A o lo equivalente
-  - Se deben incluir los badges de los analizadores de código estáticos (codacy, codeclimate, etc.)
-  - La versión final de tu código deberá estar en la rama principal
+- Código fuente en este repositorio
+- Archivo README.md actualizado
+- El código debe incluir pruebas unitarias
+- La puntuación obtenida por Codacy, CodeClimate o similar debe ser A o lo equivalente
+- Se deben incluir los badges de los analizadores de código estáticos (codacy, codeclimate, etc.)
+- La versión final de tu código deberá estar en la rama principal
 
 ## Puntos
 
-  - Número de commits
-  - Frecuencia de los commits (# de commits realizados en días diferentes)
-  - Tamaño de los commits (líneas de código agregadas)
+- Número de commits
+- Frecuencia de los commits (# de commits realizados en días diferentes)
+- Tamaño de los commits (líneas de código agregadas)
 
 ## Tecnologías
 
-  - Javascript ó Typescript
-  - ESLint
-  - Jest
-  - Codacy, CodeClimate, CodeCov
+- Javascript ó Typescript
+- ESLint
+- Jest
+- Codacy, CodeClimate, CodeCov
 
 ## Requerimientos funcionales
 
-  Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. La App mostrar un listado de todas las propiedades disponibles mostrando la siguiente información para cada propiedad:
+ Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. La App mostrar un listado de todas las propiedades disponibles mostrando la siguiente información para cada propiedad:
 
-  - Nombre
-  - Dirección
-  - Número de habitaciones
-  - Número de baños
-  - Superficie
-  - Costo de renta mensual
-  - Evaluación o calificación de la propiedad
-  - Icono que permita al usuario indicar o marcar las propiedades que más le gustan
+- Nombre
+- Dirección
+- Número de habitaciones
+- Número de baños
+- Superficie
+- Costo de renta mensual
+- Evaluación o calificación de la propiedad
+- Icono que permita al usuario indicar o marcar las propiedades que más le gustan
 
 ## Diseño
 
-En la carp  eta [design](/design) se encuentra el diseño solicitado.
+En la carpeta [design](/design) se encuentra el diseño solicitado.
 
 ![inmobiliaria-card](design/inmobiliaria-card.png)
 <img src="design/inmobiliaria.png" alt="inmobiliaria" width="450"/>
 
 ## Flujo de trabajo sugerido
 
+<<<<<<< HEAD
   - Divide tu trabajo en pequeñas tareas
   - Para cada pantalla identifica o clasifica los diferentes compones que se presentan
   - Inicia programando los componentes individuales procurando que estos sean reutilizables
