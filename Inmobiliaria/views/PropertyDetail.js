@@ -17,7 +17,7 @@ return (
         <Animated.View
             style={{
                 position: 'absolute',
-                top: safeInsets.top + SPACING,
+                top: safeInsets.top,
                 left: safeInsets.left + SPACING,
                 right: safeInsets.right + SPACING,
                 zIndex: 1,
@@ -40,21 +40,21 @@ return (
                 alignItems: 'flex-start'
             }} >
         <Text style={styles.postTitle}>{property.nombre}</Text>
-        <Text style={styles.postSize}>{property.direccion}</Text>
+        <Text style={styles.postTitle}>{property.direccion}</Text>
         </View>
         <View style={styles.postDetails}>
             <Text style={styles.postSize}>Contains:</Text>
-            <Text style={styles.postSize}>{property.habitaciones} Rooms</Text>
-            <Text style={styles.postSize}>{property.banios} Bathrooms</Text>
+            <Text style={styles.descriptions}>{property.habitaciones} Rooms</Text>
+            <Text style={styles.descriptions}>{property.banios} Bathrooms</Text>
             <View style={{marginBottom: 20}} />
             <Text style={styles.postSize}>Size:</Text>
-            <Text style={styles.postSize}>{property.superficie} ft²</Text>
+            <Text style={styles.descriptions}>{property.superficie} ft²</Text>
             <View style={{marginBottom: 20}} />
             <Text style={styles.postSize}>Prize:</Text>
-            <Text style={styles.postSize}>{property.costoMensual}/month </Text>
+            <Text style={styles.descriptions}>${property.costoMensual}/month </Text>
             <View style={{marginBottom: 20}} />
             <Text style={styles.postSize}>Score:</Text>
-            <Text style={styles.postSize}>{property.calificacion} <FontAwesome name="star" /></Text>
+            <Text style={styles.descriptions}>{property.calificacion} <FontAwesome name="star" /></Text>
         </View>
     </Layout>
     </View>
@@ -82,15 +82,12 @@ const styles = StyleSheet.create({
     postTitle: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: "#FFFFFF"
+        color: "#FFFFFF",
+        textAlign: 'right',
     },
     postSize: {
         fontSize: 20,
         fontWeight: 'semi-bold',
-        color: "#FFFFFF"
-    },
-    postIngredients: {
-        textAlign:'left',
         color: "#FFFFFF"
     },
     descriptions:{
