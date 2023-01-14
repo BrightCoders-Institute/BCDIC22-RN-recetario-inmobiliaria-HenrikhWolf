@@ -47,7 +47,7 @@ return (
             <Text style={styles.descriptions}>{property.habitaciones} Rooms</Text>
             <Text style={styles.descriptions}>{property.banios} Bathrooms</Text>
             <View style={{marginBottom: 20}} />
-            <Text style={styles.postSize}>Size:</Text>
+            <Text style={styles.postSize}>Tamaño:</Text>
             <Text style={styles.descriptions}>{property.superficie} ft²</Text>
             <View style={{marginBottom: 20}} />
             <Text style={styles.postSize}>Prize:</Text>
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
         color: "#FFFFFF"
     },
     descriptions:{
-        color: 'white',
+        color: 'green',
         fontSize: 15
     }
 })

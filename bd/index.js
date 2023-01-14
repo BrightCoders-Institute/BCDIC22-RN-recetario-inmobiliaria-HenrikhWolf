@@ -6,7 +6,7 @@ export const propiedades = [
         habitaciones: 1,
         banios: 2,
         superficie: 230,
-        costoMensual: 440,
+        costoMensual: 500,
         calificacion: 4.7,
         url: "https://images.squarespace-cdn.com/content/v1/5adf9f5b12b13f147b9b6590/1529093418332-L7RZF3TZ92CHKJH5MDVI/B1+AREA+SOCIAL%2C+SIN+DORMITORIO.jpg?format=2500w"
     },
